@@ -1,3 +1,4 @@
+
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
@@ -8,50 +9,48 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Sujay Babu Tumu, </span>a final-year B.Tech CSE student 
-            at <span className="purple"> IIIT Nagpur.</span>
+            Hi everyone! I'm{" "}
+            <span className="purple">Tumu Sujay Babu </span>,
+            a developer who enjoys exploring ideas, solving challenges,
+            and building things that make a difference.
+
             <br />
             <br />
 
-            
-            
-            I have gained hands-on experience in building scalable applications using <span className="purple"> Java </span> and <span className="purple"> MERN Stack </span>
-            and working with cloud tools and actively practice problem-solving on <span className="purple"> LeetCode </span> 
-            and GeeksforGeeks, strengthening core concepts.
+            I believe in learning by doing. Whether I'm developing a
+            project, debugging a tricky issue, or exploring a new
+            concept, I enjoy understanding how things work and finding
+            effective solutions.
+
             <br />
             <br />
 
-            I actively practice <span className="purple">Data Structures and Algorithms</span> on platforms such as <span className="purple">LeetCode</span> and GeeksforGeeks, strengthening my problem-solving ability and understanding of core computer science concepts.
-            <br />
-            <br />
-
-            
-            Seeking opportunities as a <span className="purple"> Software Development Engineer / Full-Stack Developer </span>
-              to contribute to impactful projects and drive innovative solutions.
-            <br />
-            <br />
-            Along with coding skill I have other interests like,  
+            Beyond development, I like activities that keep me curious,
+            creative, and refreshed. My interests include:
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <ImPointRight /> Watching movies
             </li>
             <li className="about-activity">
               <ImPointRight /> Solving puzzles
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling and exploring new places
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing games
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Building solutions, one line at a time!"{" "}
+            "Building solutions, one line at a time!"
           </p>
-          <footer className="blockquote-footer">Sujay Babu Tumu</footer>
+
+          <footer className="blockquote-footer">
+            Sujay Babu Tumu
+          </footer>
         </blockquote>
       </Card.Body>
     </Card>
